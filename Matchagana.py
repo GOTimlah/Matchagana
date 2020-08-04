@@ -2,8 +2,6 @@ import unicodedata
 import random
 from flask import Flask, render_template, request, redirect, flash
 app = Flask(__name__)
-app.secret_key = "IbXd)K=gWm/6TAc"
-
 
 @app.route("/api/hiragana", methods=["GET"])
 def api_hiragana():
